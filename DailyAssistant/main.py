@@ -3,7 +3,7 @@ os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 import sys
 from dotenv import load_dotenv
 
-from lib.gpt_download import download_script
+from lib_labs.gpt_download import download_script
 
 
 load_dotenv()
