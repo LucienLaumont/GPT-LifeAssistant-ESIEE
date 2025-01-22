@@ -1,0 +1,10 @@
+python-dotenv
+numpy
+tensorflow
+tqdm
+requests
+torch
+matplotlib
+tiktoken
+transformers
+scikit-learn

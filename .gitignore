@@ -1,6 +1,7 @@
 # models files
 
 gpt2/
+model/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
