@@ -57,11 +57,6 @@ const handleSubmit = async () => {
     </div>
     
     <div class="chat-container">
-      <div class="cooking-decoration decoration-1">🥕</div>
-      <div class="cooking-decoration decoration-2">🍅</div>
-      <div class="cooking-decoration decoration-3">🧄</div>
-      <div class="cooking-decoration decoration-4">🌶️</div>
-      
       <div class="chat-history">
         <div v-for="message in messages" :key="message.id" class="message">
           <div :class="['message-' + message.type]">
