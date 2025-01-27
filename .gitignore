@@ -2,6 +2,7 @@
 
 gpt2/
 model/
+finetuned_gpt2/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
