@@ -1,0 +1,184 @@
+:root {
+  --beige-50: #fdfbf6;
+  --beige-100: #f7f2e9;
+  --beige-200: #ede3d1;
+  --beige-300: #e2d0b3;
+  --beige-400: #d4bc94;
+  --beige-500: #c5a77a;
+  --beige-600: #b69263;
+  --primary: #8B4513;
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--primary);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--beige-50);
+  background-image: url('https://www.transparenttextures.com/patterns/cooking-icons.png');
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(139, 69, 19, 0.1);
+  padding: 2rem;
+  border: 2px solid var(--beige-200);
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  margin: 2rem 0;
+}
+
+.chat-history {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.message {
+  margin-bottom: 1.5rem;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.message-user {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.message-assistant {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.message-content {
+  background: var(--beige-100);
+  padding: 1rem;
+  border-radius: 12px;
+  margin-left: 1rem;
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.message-assistant .message-content {
+  background: white;
+  border: 1px solid var(--beige-200);
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--beige-200);
+  flex-shrink: 0;
+}
+
+.input-area {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--beige-100);
+  background: white;
+}
+
+textarea {
+  flex: 1;
+  min-height: 60px;
+  padding: 1rem;
+  border: 2px solid var(--beige-200);
+  border-radius: 12px;
+  resize: vertical;
+  font-family: inherit;
+  background: var(--beige-50);
+  transition: border-color 0.2s;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: var(--beige-400);
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button:hover {
+  background-color: #723a0f;
+}
+
+button:disabled {
+  background-color: var(--beige-300);
+  cursor: not-allowed;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: var(--beige-500);
+  margin-top: 0.5rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.cooking-decoration {
+  position: absolute;
+  font-size: 1.5rem;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.decoration-1 { top: 20px; left: 20px; transform: rotate(-15deg); }
+.decoration-2 { top: 20px; right: 20px; transform: rotate(15deg); }
+.decoration-3 { bottom: 20px; left: 20px; transform: rotate(15deg); }
+.decoration-4 { bottom: 20px; right: 20px; transform: rotate(-15deg); }
