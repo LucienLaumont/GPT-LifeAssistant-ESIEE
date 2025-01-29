@@ -1,112 +1,84 @@
-# GPT-LifeAssistant-ESIEE
+# 🍳 DailyAssistant - Assistant Culinaire GPT  
 
-## Description
-GPT-LifeAssistant-ESIEE est un projet développé à l'ESIEE qui utilise l'intelligence artificielle pour créer un assistant de vie. Ce projet combine plusieurs technologies, notamment Jupyter Notebook, Vue.js, CSS et Python, pour offrir une solution complète d'assistance personnelle.
+Bienvenue dans **DailyAssistant**, un assistant de cuisine basé sur un **LLM finetuné à partir de GPT-2**. Ce projet vise à vous aider à réaliser vos plats en vous fournissant des conseils et des recettes comme un véritable assistant culinaire.  
 
-## Motivation
-La motivation derrière ce projet est de démontrer comment les technologies d'intelligence artificielle peuvent être utilisées pour améliorer la vie quotidienne. L'objectif est de créer un assistant personnel capable de répondre à diverses questions, fournir des recommandations et effectuer des tâches courantes de manière efficace et intuitive.
+## 🏗️ Structure du projet  
 
-## Objectifs
-- **Développer un assistant personnel basé sur l'IA** : Créer un assistant capable de répondre intelligemment aux questions des utilisateurs.
-- **Créer une interface utilisateur intuitive** : Développer une interface web user-friendly avec Vue.js et CSS.
-- **Analyser les données pour fournir des réponses pertinentes** : Utiliser Python pour analyser les données et entraîner les modèles d'IA.
-- **Intégrer diverses technologies** : Démontrer l'utilisation de différentes technologies et leur synergie dans un projet cohérent.
+Le repository est divisé en deux parties principales :  
 
-## Architecture du Projet
-L'architecture du projet est divisée en plusieurs composants principaux :
+📂 **`app/`** - Contient le code pour **exécuter le backend et le frontend** :  
+- **Backend** : API développée avec **FastAPI** pour interagir avec le modèle fine-tuné.  
+- **Frontend** : Interface développée avec **Vue.js** pour interagir avec l’assistant.  
 
-1. **Backend (Python, Jupyter Notebook)** :
-   - Responsable de l'analyse des données et de la génération des réponses.
-   - Utilise des modèles d'IA pour traiter les requêtes des utilisateurs.
-   - Scripts Python pour le prétraitement des données et l'entraînement des modèles.
+📂 **`finetuning_gpt2/`** - Contient les notebooks et les données pour le **finetuning de GPT-2** :  
+- **Jupyter Notebook** permettant de finetuner et tester différents modèles **GPT-2**.  
+- **Données d'entraînement** utilisées pour spécialiser le modèle en tant qu'assistant culinaire.  
 
-2. **Frontend (Vue.js, CSS)** :
-   - Interface utilisateur pour interagir avec l'assistant.
-   - Utilise Vue.js pour créer une application web réactive.
-   - CSS pour le stylisme et la mise en page de l'interface.
+---
 
-3. **Base de données** :
-   - Stockage des données nécessaires pour l'assistant.
-   - Utilisation d'une base de données relationnelle pour un accès rapide et efficace aux informations.
+## 🚀 Installation & Configuration  
 
+### **1️⃣ Créer un environnement virtuel**  
+Dans le dossier **racine du projet**, exécutez :  
+```sh
+python -m venv venv
+source venv/bin/activate  # Sur Mac/Linux
+venv\Scripts\activate      # Sur Windows
+```
 
-## Installation
+### **2️⃣ Installer les dépendances**  
+Dans le dossier `app/` (pour le backend) :  
+```sh
+pip install -r requirements.txt
+```
+Dans le dossier `project/` (pour le frontend) :  
+```sh
+npm install
+```
 
-### Prérequis
-- **Python 3.x** : Pour exécuter les scripts backend et Jupyter Notebook.
-- **Node.js** : Pour exécuter le serveur web et les dépendances frontend.
-- **Jupyter Notebook** : Pour travailler avec les notebooks interactifs.
+---
 
-### Étapes d'installation
-1. Clonez le dépôt :
-    ```bash
-    git clone https://github.com/LucienLaumont/GPT-LifeAssistant-ESIEE.git
-    ```
+## 🏃‍♂️ Lancer l'application  
 
-2. Installez les dépendances :
-    - Pour les notebooks Jupyter :
-        ```bash
-        pip install -r requirements.txt
-        ```
-    - Pour l'interface web :
-        ```bash
-        npm install
-        ```
+### **1️⃣ Démarrer l'API (Backend)**  
+📂 **Se placer dans le dossier `app/` et exécuter** :  
+```sh
+cd app
+uvicorn api.main:app --reload
+```
+📌 **L’API est accessible sur** `http://127.0.0.1:8000/`  
+📌 **Documentation interactive Swagger** : `http://127.0.0.1:8000/docs`  
 
-## Utilisation
+---
 
-### Lancer le Serveur Web
-1. Lancez le serveur web pour l'interface utilisateur :
-    ```bash
-    npm run serve
-    ```
+### **2️⃣ Démarrer le Frontend (Vue.js)**  
+📂 **Se placer dans le dossier `project/` et exécuter** :  
+```sh
+cd ../project
+npm run dev
+```
+📌 **L'interface utilisateur est accessible sur** `http://localhost:5173/` (port par défaut de Vite).  
 
-### Exécuter les Notebooks Jupyter
-1. Ouvrez les notebooks Jupyter pour exécuter les scripts Python :
-    ```bash
-    jupyter notebook
-    ```
-2. Naviguez vers le répertoire contenant les notebooks et ouvrez-les pour commencer à travailler avec les modèles d'IA.
+---
 
-## Détails d'Implémentation
+## 🎯 Tester le modèle  
 
-### Backend
-- **Analyse des données** : Les données sont prétraitées en utilisant des scripts Python pour les rendre aptes à l'entraînement des modèles d'IA.
-- **Modèles d'IA** : Utilisation de bibliothèques telles que TensorFlow et scikit-learn pour entraîner des modèles capables de répondre aux questions des utilisateurs.
-- **API** : Développement d'une API RESTful pour permettre à l'interface utilisateur de communiquer avec le backend.
+### **Tester via l'interface frontend**
+Une fois **l'API et le frontend démarrés**, ouvrez `http://localhost:5173/` et commencez à discuter avec l'assistant culinaire.  
 
-### Frontend
-- **Vue.js** : Utilisé pour créer une interface utilisateur réactive et dynamique.
-- **Composants** : Développement de composants réutilisables pour différentes parties de l'interface, comme le champ de recherche, les boutons, etc.
-- **CSS** : Stylisme de l'interface pour une expérience utilisateur agréable.
+### **Tester via un appel API (`cURL` ou Postman)**  
+Vous pouvez envoyer une requête POST pour interagir avec le modèle :  
+```sh
+curl -X POST http://127.0.0.1:8000/api/chat/ \
+-H "Content-Type: application/json" \
+-d '{"prompt": "Quelle est une bonne recette de pizza ?"}'
+```
 
-### Base de Données
-- **Stockage** : Utilisation d'une base de données relationnelle pour stocker les données utilisateur et les informations nécessaires pour l'assistant.
-- **Requêtes** : Optimisation des requêtes pour un accès rapide aux données.
+---
 
-## Résultats
+## 📌 Remarques  
+- Le **modèle GPT-2** a été fine-tuné avec un corpus orienté **cuisine et gastronomie**.  
+- Les réponses sont **nettoyées** et **optimisées** avec des techniques de **pré-processing avancées** (suppression des phrases incomplètes et des redondances).  
+- Le projet peut être **déployé sur un serveur distant** (ex: **AWS, Docker, Nginx**) pour une utilisation en production.  
 
-### Tests et Performances
-- **Précision** : Les tests montrent que l'assistant est capable de répondre avec précision à une variété de questions grâce à l'entraînement des modèles d'IA.
-- **Réactivité** : L'interface utilisateur est rapide et réactive, offrant une bonne expérience utilisateur.
-
-### Exemple de Réponses
-- **Question** : "Quel temps fait-il aujourd'hui ?"
-  - **Réponse** : "Il fait ensoleillé avec une température de 25°C."
-- **Question** : "Peux-tu me recommander un restaurant à proximité ?"
-  - **Réponse** : "Je vous recommande le restaurant 'Le Gourmet' situé à 500m de votre position actuelle."
-
-## Conclusion
-GPT-LifeAssistant-ESIEE démontre l'efficacité de l'intelligence artificielle pour améliorer la vie quotidienne. Le projet a atteint ses objectifs principaux et ouvre la voie à de futures améliorations et fonctionnalités.
-
-## Contribution
-Les contributions sont les bienvenues ! Veuillez soumettre des pull requests avec des descriptions détaillées des modifications.
-
-
-## Auteurs
-- Lucien Laumont
-- Théo Lindqvist
-- Théo Labat
-
-## Remerciements
-Merci à tous ceux qui ont contribué à ce projet.
+**🍽️ Bonne session cuisine avec DailyAssistant !** 🚀  
