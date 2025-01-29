@@ -32,17 +32,32 @@ const handleSubmit = async () => {
   
   isLoading.value = true
   
-  // Simulation d'une réponse (à remplacer par l'appel à votre API)
-  setTimeout(() => {
+  try {
+    const response = await fetch("/api/chat/", {  // Utilisation du proxy Vite
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ prompt: userInput.value })
+    })
+
+    const data = await response.json()
+    
     messages.value.push({
       id: Date.now(),
       type: 'assistant',
-      content: "Je suis votre assistant culinaire et je suis là pour vous aider avec vos questions de cuisine ! N'hésitez pas à me poser des questions sur les recettes, les techniques de cuisine ou les ingrédients.",
+      content: data.response || "Désolé, je n'ai pas pu générer une réponse.",
       timestamp: new Date()
     })
-    isLoading.value = false
-  }, 1000)
-  
+  } catch (error) {
+    console.error("Erreur lors de la requête API :", error)
+    messages.value.push({
+      id: Date.now(),
+      type: 'assistant',
+      content: "Erreur de communication avec le serveur.",
+      timestamp: new Date()
+    })
+  }
+
+  isLoading.value = false
   userInput.value = ''
 }
 </script>
