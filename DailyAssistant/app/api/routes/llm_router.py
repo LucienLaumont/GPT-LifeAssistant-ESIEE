@@ -8,7 +8,7 @@ from api.utils.preprocessing_answer import clean_incomplete_sentences, remove_re
 
 
 
-MODEL_DIR = os.getenv("MODEL_DIR", "model")  # Par défaut, sauvegarde dans "model"
+MODEL_DIR = "model_finetuned"
 MODEL_SIZE = os.getenv("MODEL_SIZE", "gpt2")  # Par défaut, utilise "gpt2"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 

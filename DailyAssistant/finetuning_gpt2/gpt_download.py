@@ -20,7 +20,7 @@ def download_gpt2(save_dir, model_size):
     """
     # Chemins des fichiers du modèle
     config_path = os.path.join(save_dir, "config.json")
-    model_path = os.path.join(save_dir, "model.safetensors")  # Remis en .bin (Hugging Face format)
+    model_path = os.path.join(save_dir, "model.safetensors")
     tokenizer_path = os.path.join(save_dir, "vocab.json")
 
     # Vérifier si le modèle est déjà présent

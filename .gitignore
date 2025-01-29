@@ -2,6 +2,7 @@
 
 gpt2/
 model/
+model_finetuned/
 finetuned_gpt2/
 
 # Byte-compiled / optimized / DLL files
