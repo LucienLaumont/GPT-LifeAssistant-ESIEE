@@ -6,14 +6,13 @@ from pydantic import BaseModel
 from api.utils.gpt_download import download_gpt2
 from api.utils.preprocessing_answer import clean_incomplete_sentences, remove_redundant_sentences
 
-
-
 MODEL_DIR = "model_finetuned"
 MODEL_SIZE = os.getenv("MODEL_SIZE", "gpt2")  # Par défaut, utilise "gpt2"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Charger le modèle GPT-2
 model, tokenizer = download_gpt2(MODEL_DIR, MODEL_SIZE)
+prompt = "Respond to the user like a master chef, keeping the language warm, inviting, and focused on cooking."
 
 router = APIRouter()
 
@@ -24,7 +23,7 @@ class UserInput(BaseModel):
 async def chat_with_llm(user_input: UserInput):
     try:
 
-        input_text = user_input.prompt
+        input_text = prompt + " : "  + user_input.prompt
         inputs = tokenizer(input_text, return_tensors="pt")
         input_ids = inputs.input_ids
         attention_mask = inputs.attention_mask
