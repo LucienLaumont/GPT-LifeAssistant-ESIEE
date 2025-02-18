@@ -34,7 +34,7 @@ L’application est configurée pour être accessible sur un réseau local via *
 ## 📡 Flux de Communication
 1. **L’utilisateur pose une question** via l’interface Vue.js.
 2. **Requête envoyée à FastAPI** via une API REST.
-3. **Traitement par le modèle IA** qui analyse la requête et interroge la base JSON si nécessaire.
+3. **Traitement par le modèle IA** qui analyse la requête.
 4. **Réponse formatée** et renvoyée à l’interface pour affichage.
 
 ## 🚀 Conclusion
