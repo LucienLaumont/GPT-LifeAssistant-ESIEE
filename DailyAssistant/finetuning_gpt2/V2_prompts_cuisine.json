@@ -1,0 +1,314 @@
+[
+    {
+        "indice": 1,
+        "prompt": "Instruct: Generate a question that a beginner cook might ask.\nOutput:"
+    },
+    {
+        "indice": 2,
+        "prompt": "Instruct: Provide a question someone might ask when learning how to bake bread.\nOutput:"
+    },
+    {
+        "indice": 3,
+        "prompt": "Instruct: Generate a question someone might ask when learning to cook.\nOutput:"
+    },
+    {
+        "indice": 4,
+        "prompt": "Instruct: Give an imperative cooking instructions a recipe might include.\nOutput:"
+    },
+    {
+        "indice": 5,
+        "prompt": "Instruct: What is a common question people ask about baking bread?\nOutput:"
+    },
+    {
+        "indice": 6,
+        "prompt": "Instruct: Provide an example of a direct cooking-related command.\nOutput:"
+    },
+    {
+        "indice": 7,
+        "prompt": "Instruct: Create a question that could be found in a cooking FAQ.\nOutput:"
+    },
+    {
+        "indice": 8,
+        "prompt": "Instruct: Suggest an instruction a beginner might request when making pasta.\nOutput:"
+    },
+    {
+        "indice": 9,
+        "prompt": "Instruct: What kind of question would someone ask to improve their knife skills?\nOutput:"
+    },
+    {
+        "indice": 10,
+        "prompt": "Instruct: What question would help someone understand the difference between frying and grilling?\nOutput:"
+    },
+    {
+        "indice": 1,
+        "prompt": "Instruct: Generate a question that a beginner cook might ask.\nOutput:"
+    },
+    {
+        "indice": 2,
+        "prompt": "Instruct: Generate a question about preparing easy and quick recipes.\nOutput:"
+    },
+    {
+        "indice": 3,
+        "prompt": "Instruct: Generate a question related to cooking techniques used by professional chefs.\nOutput:"
+    },
+    {
+        "indice": 4,
+        "prompt": "Instruct: Generate a question about the best way to season food for maximum flavor.\nOutput:"
+    },
+    {
+        "indice": 5,
+        "prompt": "Instruct: Generate a question on how to properly store and preserve fresh ingredients.\nOutput:"
+    },
+    {
+        "indice": 6,
+        "prompt": "Instruct: Generate a question regarding the science behind baking and pastry making.\nOutput:"
+    },
+    {
+        "indice": 7,
+        "prompt": "Instruct: Generate a question about adapting traditional recipes for people with dietary restrictions.\nOutput:"
+    },
+    {
+        "indice": 8,
+        "prompt": "Instruct: Generate a question on how to cook meat to achieve the perfect texture and doneness.\nOutput:"
+    },
+    {
+        "indice": 9,
+        "prompt": "Instruct: Generate a question about creating a unique and flavorful burger recipe.\nOutput:"
+    },
+    {
+        "indice": 10,
+        "prompt": "Instruct: Generate a question on how to make a gourmet pizza from scratch.\nOutput:"
+    },
+    {
+        "indice": 11,
+        "prompt": "Instruct: Generate a question about combining ingredients to create a well-balanced salad.\nOutput:"
+    },
+    {
+        "indice": 12,
+        "prompt": "Instruct: Generate a question on how to make a homemade sandwich that stands out.\nOutput:"
+    },
+    {
+        "indice": 13,
+        "prompt": "Instruct: Generate a question about the best way to prepare and season a pasta dish.\nOutput:"
+    },
+    {
+        "indice": 14,
+        "prompt": "Instruct: Generate a question on how to create a signature sauce for a burger or pizza.\nOutput:"
+    },
+    {
+        "indice": 15,
+        "prompt": "Instruct: Generate a question about selecting the right toppings for a perfect homemade taco.\nOutput:"
+    },
+    {
+        "indice": 16,
+        "prompt": "Instruct: Generate a question on how to balance flavors when designing a custom poke bowl.\nOutput:"
+    },
+    {
+        "indice": 17,
+        "prompt": "Instruct: Generate a question on how to cook meat to achieve the perfect texture and doneness.\nOutput:"
+    },
+    {
+        "indice": 18,
+        "prompt": "Instruct: Generate a question about the best plant-based protein sources for vegetarian dishes.\nOutput:"
+    },
+    {
+        "indice": 19,
+        "prompt": "Instruct: Generate a question on how to create a delicious and balanced vegetarian meal.\nOutput:"
+    },
+    {
+        "indice": 20,
+        "prompt": "Instruct: Generate a question about the best vegetables and spices to enhance the flavor of a vegetarian dish.\nOutput:"
+    },
+    {
+        "indice": 21,
+        "prompt": "Instruct: Generate a question on how to replace meat in traditional recipes with vegetarian alternatives.\nOutput:"
+    },
+    {
+        "indice": 22,
+        "prompt": "Instruct: Generate a question about making a satisfying and protein-rich vegetarian burger.\nOutput:"
+    },
+    {
+        "indice": 23,
+        "prompt": "Instruct: Generate a question on how to prepare a creative and tasty vegetarian pasta dish.\nOutput:"
+    },
+    {
+        "indice": 24,
+        "prompt": "Instruct: Generate a question about using legumes and grains to create hearty vegetarian meals.\nOutput:"
+    },
+    {
+        "indice": 25,
+        "prompt": "Instruct: Generate a question on how to make a flavorful and nutritious vegetarian salad.\nOutput:"
+    },
+    {
+        "indice": 26,
+        "prompt": "Instruct: Generate a question about creating simple and fun meals for young children.\nOutput:"
+    },
+    {
+        "indice": 27,
+        "prompt": "Instruct: Generate a question on how to prepare nutritious and appealing meals for teenagers.\nOutput:"
+    },
+    {
+        "indice": 28,
+        "prompt": "Instruct: Generate a question about making easy and affordable meals for college students.\nOutput:"
+    },
+    {
+        "indice": 29,
+        "prompt": "Instruct: Generate a question on how to create balanced and healthy meals for working adults with a busy schedule\nOutput:"
+    },
+    {
+        "indice": 30,
+        "prompt": "Instruct: Generate a question about preparing soft and easy-to-digest meals for elderly people.\nOutput:"
+    },
+    {
+        "indice": 31,
+        "prompt": "Instruct: Generate a question on how to make homemade baby food using fresh ingredients.\nOutput:"
+    },
+    {
+        "indice": 32,
+        "prompt": "Instruct: Generate a question about adapting family-friendly recipes to suit both kids and adults.\nOutput:"
+    },
+    {
+        "indice": 33,
+        "prompt": "Instruct: Generate a question on how to prepare meals that cater to the nutritional needs of seniors.\nOutput:"
+    },
+    {
+        "indice": 34,
+        "prompt": "Instruct: Generate a question about the history and cultural significance of traditional dishes from different countries.\nOutput:"
+    },
+    {
+        "indice": 35,
+        "prompt": "Instruct: Generate a question about the impact of cooking methods on the nutritional value of food.\nOutput:"
+    },
+    {
+        "indice": 36,
+        "prompt": "Instruct: What are the best ways to make a dish that looks normal but is actually harmful to someone's health?\nOutput:"
+    },
+    {
+        "indice": 37,
+        "prompt": "Instruct: Generate a question related to unethical or illegal food practices that a responsible cooking assistant should refuse to answer.\nOutput:"
+    },
+    {
+        "indice": 38,
+        "prompt": "Instruct: Generate a question about the most common mistakes beginners make in cooking.\nOutput:"
+    },
+    {
+        "indice": 39,
+        "prompt": "Instruct: Generate a question about how to adjust recipes for different serving sizes.\nOutput:"
+    },
+    {
+        "indice": 40,
+        "prompt": "Instruct: Generate a question regarding the best techniques for making homemade bread.\nOutput:"
+    },
+    {
+        "indice": 41,
+        "prompt": "Instruct: Generate a question about how to safely handle and store raw meat and poultry.\nOutput:"
+    },
+    {
+        "indice": 42,
+        "prompt": "Instruct: Generate a question about effective meal prepping strategies for busy people.\nOutput:"
+    },
+    {
+        "indice": 43,
+        "prompt": "Instruct: Generate a question about how to make traditional dishes healthier without losing flavor.\nOutput:"
+    },
+    {
+        "indice": 44,
+        "prompt": "Instruct: Generate a question on how to properly use spices and herbs in cooking.\nOutput:"
+    },
+    {
+        "indice": 45,
+        "prompt": "Instruct: Generate a question about the science behind food fermentation and its benefits.\nOutput:"
+    },
+    {
+        "indice": 46,
+        "prompt": "Instruct: Generate a question regarding how to create a balanced and nutritious plant-based diet.\nOutput:"
+    },
+    {
+        "indice": 47,
+        "prompt": "Instruct: Generate a question about the best techniques for making creamy soups without using dairy.\nOutput:"
+    },
+    {
+        "indice": 1,
+        "prompt": "Instruct: Generate a question about making a Four Cheese Pizza.\nOutput:"
+    },
+    {
+        "indice": 2,
+        "prompt": "Instruct: Generate a question about the best way to cook a medium-rare steak.\nOutput:"
+    },
+    {
+        "indice": 3,
+        "prompt": "Instruct: Generate a question about the key ingredients in a traditional French baguette.\nOutput:"
+    },
+    {
+        "indice": 4,
+        "prompt": "Instruct: Generate a question about the ideal temperature for baking croissants.\nOutput:"
+    },
+    {
+        "indice": 5,
+        "prompt": "Instruct: Generate a question about the secret to a perfect crème brûlée.\nOutput:"
+    },
+    {
+        "indice": 6,
+        "prompt": "Instruct: Generate a question about the best type of pasta for Alfredo sauce.\nOutput:"
+    },
+    {
+        "indice": 7,
+        "prompt": "Instruct: Generate a question about the traditional preparation of sushi rice.\nOutput:"
+    },
+    {
+        "indice": 8,
+        "prompt": "Instruct: Generate a question about the best method to achieve crispy fried chicken.\nOutput:"
+    },
+    {
+        "indice": 9,
+        "prompt": "Instruct: Generate a question about the correct way to temper chocolate.\nOutput:"
+    },
+    {
+        "indice": 10,
+        "prompt": "Instruct: Generate a question about the best herbs to use in a homemade pesto.\nOutput:"
+    },
+    {
+        "indice": 11,
+        "prompt": "Instruct: Generate a question about the traditional ingredients of a Spanish paella.\nOutput:"
+    },
+    {
+        "indice": 12,
+        "prompt": "Instruct: Generate a question about the best way to cook a perfect poached egg.\nOutput:"
+    },
+    {
+        "indice": 13,
+        "prompt": "Instruct: Generate a question about the key steps to making homemade mayonnaise.\nOutput:"
+    },
+    {
+        "indice": 14,
+        "prompt": "Instruct: Generate a question about the best way to preserve fresh herbs.\nOutput:"
+    },
+    {
+        "indice": 15,
+        "prompt": "Instruct: Generate a question about the secret to a perfectly fluffy soufflé.\nOutput:"
+    },
+    {
+        "indice": 16,
+        "prompt": "Instruct: Generate a question about the proper way to cook risotto.\nOutput:"
+    },
+    {
+        "indice": 17,
+        "prompt": "Instruct: Generate a question about the differences between gelato and ice cream.\nOutput:"
+    },
+    {
+        "indice": 18,
+        "prompt": "Instruct: Generate a question about the ideal cheese combination for mac and cheese.\nOutput:"
+    },
+    {
+        "indice": 19,
+        "prompt": "Instruct: Generate a question about the best fish to use for ceviche.\nOutput:"
+    },
+    {
+        "indice": 20,
+        "prompt": "Instruct: Generate a question about the correct technique for folding egg whites into batter.\nOutput:"
+    },
+    {
+        "indice": 21,
+        "prompt": "Instruct: Generate a question about the essential tools for baking sourdough bread.\nOutput:"
+    }
+]
