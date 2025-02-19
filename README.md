@@ -71,7 +71,7 @@ Vous pouvez envoyer une requête POST pour interagir avec le modèle :
 ```sh
 curl -X POST http://127.0.0.1:8000/api/chat/ \
 -H "Content-Type: application/json" \
--d '{"prompt": "Quelle est une bonne recette de pizza ?"}'
+-d '{"prompt": "How to steam carrot?"}'
 ```
 
 ---
