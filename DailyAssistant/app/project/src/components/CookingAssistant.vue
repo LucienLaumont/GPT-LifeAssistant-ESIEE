@@ -13,7 +13,7 @@ const messages = ref<Message[]>([])
 const isLoading = ref(false)
 
 const formatTime = (date: Date) => {
-  return new Intl.DateTimeFormat('fr-FR', {
+  return new Intl.DateTimeFormat('en-US', {
     hour: '2-digit',
     minute: '2-digit'
   }).format(date)
@@ -22,7 +22,7 @@ const formatTime = (date: Date) => {
 const handleSubmit = async () => {
   if (!userInput.value.trim()) return
   
-  // Ajouter le message de l'utilisateur
+  // Add user message
   messages.value.push({
     id: Date.now(),
     type: 'user',
@@ -33,7 +33,7 @@ const handleSubmit = async () => {
   isLoading.value = true
   
   try {
-    const response = await fetch("/api/chat/", {  // Utilisation du proxy Vite
+    const response = await fetch("/api/chat/", {  // Using Vite proxy
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ prompt: userInput.value })
@@ -44,15 +44,15 @@ const handleSubmit = async () => {
     messages.value.push({
       id: Date.now(),
       type: 'assistant',
-      content: data.response || "Désolé, je n'ai pas pu générer une réponse.",
+      content: data.response || "Sorry, I couldn't generate a response.",
       timestamp: new Date()
     })
   } catch (error) {
-    console.error("Erreur lors de la requête API :", error)
+    console.error("Error while making API request:", error)
     messages.value.push({
       id: Date.now(),
       type: 'assistant',
-      content: "Erreur de communication avec le serveur.",
+      content: "Error communicating with the server.",
       timestamp: new Date()
     })
   }
@@ -68,7 +68,7 @@ const handleSubmit = async () => {
       <div class="header-icons">
         🥘 🍳 👨‍🍳 🥗
       </div>
-      <h1>Assistant Culinaire GPT</h1>
+      <h1>Culinary Assistant GPT</h1>
     </div>
     
     <div class="chat-container">
@@ -89,7 +89,7 @@ const handleSubmit = async () => {
           <div class="message-assistant">
             <div class="avatar">👨‍🍳</div>
             <div class="message-content">
-              Préparation de la réponse... 🔪
+              Preparing response... 🔪
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ const handleSubmit = async () => {
           <div class="message-assistant">
             <div class="avatar">👨‍🍳</div>
             <div class="message-content">
-              Bonjour ! Je suis votre assistant culinaire. Comment puis-je vous aider aujourd'hui ? 🍽️
+              Hello! I am your culinary assistant. How can I help you today? 🍽️
             </div>
           </div>
         </div>
@@ -107,14 +107,14 @@ const handleSubmit = async () => {
       <div class="input-area">
         <textarea 
           v-model="userInput"
-          placeholder="Posez votre question culinaire ici... 🥗"
+          placeholder="Ask your culinary question here... 🥗"
           @keyup.enter.ctrl="handleSubmit"
         ></textarea>
         <button 
           @click="handleSubmit"
           :disabled="isLoading || !userInput.trim()"
         >
-          {{ isLoading ? '👨‍🍳 En cours...' : 'Envoyer' }}
+          {{ isLoading ? '👨‍🍳 Processing...' : 'Send' }}
         </button>
       </div>
     </div>

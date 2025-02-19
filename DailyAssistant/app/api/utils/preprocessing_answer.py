@@ -58,3 +58,35 @@ def remove_redundant_sentences(text, similarity_threshold=0.8):
     # Reconstruct the text with only unique sentences
     unique_sentences = [sentences[i] for i in sentences_to_keep]
     return '\n'.join(unique_sentences)
+
+def clean_generated_text(text: str) -> str:
+    """
+    Cleans and formats the generated text to remove extra newlines, spaces, and stray punctuation.
+
+    Args:
+        text (str): Raw generated text.
+
+    Returns:
+        str: Formatted and cleaned text.
+    """
+    # Remove stray dots at the beginning of a line
+    text = re.sub(r"\n\s*\.", "\n", text)
+
+    # Ensure proper spacing around punctuation
+    text = re.sub(r"\s+\.", ".", text)  # Remove extra spaces before periods
+    text = re.sub(r"\.\s*\.", ".", text)  # Fix multiple consecutive periods
+
+    # Normalize newlines and lists (Ensure proper numbering)
+    text = re.sub(r"\n\s*(\d+)\.\s*", r"\n\1. ", text)  # Ensure numbered lists are formatted correctly
+
+    # Trim excessive newlines
+    text = re.sub(r"\n{2,}", "\n", text).strip()
+
+    return text
+
+# ✅ Fonction pour extraire la réponse après "Answer: "
+def extract_output(response_text):
+    match = re.search(r"Answer:\s*(.*)", response_text, re.IGNORECASE)
+    return match.group(1).strip() if match else response_text.strip()
+
+
