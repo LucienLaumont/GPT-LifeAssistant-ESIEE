@@ -43,7 +43,7 @@ npm install
 ### **1️⃣ Démarrer l'API (Backend)**  
 📂 **Se placer dans le dossier `DailyAssistant/app/` et exécuter** :  
 ```sh
-cd app
+cd DailyAssistant/app
 uvicorn api.main:app --reload
 ```
 📌 **L’API est accessible sur** `http://127.0.0.1:8000/`  
@@ -52,9 +52,9 @@ uvicorn api.main:app --reload
 ---
 
 ### **2️⃣ Démarrer le Frontend (Vue.js)**  
-📂 **Se placer dans le dossier `project/` et exécuter** :  
+📂 **Se placer dans le dossier `DailyAssistant/app/project/` et exécuter** :  
 ```sh
-cd ../project
+cd DailyAssistant/app/project
 npm run dev
 ```
 📌 **L'interface utilisateur est accessible sur** `http://localhost:5173/` (port par défaut de Vite).  
