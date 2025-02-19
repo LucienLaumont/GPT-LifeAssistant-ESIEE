@@ -1,0 +1,402 @@
+[
+    {
+        "instruction": "How can I make a pita pie in a skillet?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a pan-fried couscous with Greek salad topping?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you peel and mince garlic while stirring a sauce?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I make a quick garlic fish sauce dressing using a blender?",
+        "response": ""
+    },
+    {
+        "instruction": "ERROR",
+        "response": ""
+    },
+    {
+        "instruction": "How can I incorporate peeling vegetables into a quick chocolate scone recipe?",
+        "response": ""
+    },
+    {
+        "instruction": "How to caramelize scallops on a grill and serve them over toasted ciabatta slices?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a tofu and lentil stuffed croissant sandwich?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I cook penne pasta with cayenne spice using a strainer?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I prepare chicken soup on the stovetop using spices from my rack?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I incorporate a coffee grinder into making a flavorful pie crust with focaccia?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I use a mandoline to evenly slice vegetables for a rice stir-fry?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I make a simple stir-fried couscous with tortillas?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I use baking powder and a mixer to prepare green beans as a side dish?",
+        "response": ""
+    },
+    {
+        "instruction": "How to prepare chopped vegetables for a pressure-cooked baked casserole?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a kneaded truffle-infused bread with a fresh juice glaze?",
+        "response": ""
+    },
+    {
+        "instruction": "How to bake vegan thyme rosemary biscuits using an oven mitt for safety?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you steam garlic cloves using tongs?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a simple thyme-infused jelly pie filling?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a simple baked potato stuffed with chickpeas in a loaf pan?",
+        "response": ""
+    },
+    {
+        "instruction": "How to prepare a spinach, grilled chicken, and lentil salad?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I incorporate garlic into a simmering vegetable stew for enhanced flavor?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I make scrambled eggs with vegetable soup using a pot?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a tomato-infused bread pudding smoothie?",
+        "response": ""
+    },
+    {
+        "instruction": "How can you use a cookie cutter and strainer to prepare crab meat for a crab salad?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I make a simple orange sorbet using a juicer?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a creamy fish fillet sauce using a juicer?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make garlic juice using a fork and juicer?",
+        "response": ""
+    },
+    {
+        "instruction": "How to prepare a simple mackerel salad using mayonnaise and a strainer?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a vegan fish-shaped coleslaw wrap?",
+        "response": ""
+    },
+    {
+        "instruction": "How to prepare tuna salad in a baking dish using blanched vegetables?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a savory roast beef popsicle with curry spice?",
+        "response": ""
+    },
+    {
+        "instruction": "How to weigh and cook a sweet potato with peas using a kitchen scale?",
+        "response": ""
+    },
+    {
+        "instruction": "How to season vegetable stew with cayenne and black pepper?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I cook saffron-infused spaghetti in a frying pan?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you make cauliflower pancakes using a grater and pan?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I incorporate orange zest into pan-fried brownies for added flavor?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you prepare a chicken salad using lasagna noodles and pizza dressing?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I cook quinoa and chickpeas in a stock pot?",
+        "response": ""
+    },
+    {
+        "instruction": "How to brush pastry with egg using a spatula in a pressure cooker?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make grilled fish tarts for a pescatarian meal?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I make a simple pescatarian dish with parmesan and mushrooms?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I make fried pudding breaded with a simple recipe?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I prepare a simple spaghetti salad using kitchen scissors?",
+        "response": ""
+    },
+    {
+        "instruction": "How to prepare a simple tuna thyme paella?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make caramelized vegan fettuccine?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make saffron-infused scallop puree using blending?",
+        "response": ""
+    },
+    {
+        "instruction": "How to blanch broccoli and season with fish sauce?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you incorporate croissant pieces into a pie filling while stirring?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a simple paprika-seasoned mashed potato using a knife for peeling?",
+        "response": ""
+    },
+    {
+        "instruction": "How to season a basic tomato sauce with salt and oregano?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I use a multicooker to prepare a juicy paprika-spiced chicken dish?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I sear fish on the stovetop for a pescatarian meal?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I make guacamole using a hand blender and measuring cups?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a simple ravioli with black beans and corn filling?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make beef stew with mushrooms and lemon zest?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make vanilla butter lobster tail?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you use a mandoline to blanch vegetables for a sushi roll?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you fillet fish using a whisk and salt block for seasoning?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I cook mussels in a saucepan with a croissant as a bread accompaniment?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I create a simple mussel tart using wax paper for baking?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a spiced chocolate curry dessert?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a turkey and ketchup pizza with a yeast dough base?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you incorporate spice grinding into simmering a cake batter?",
+        "response": ""
+    },
+    {
+        "instruction": "How to blanch chili peppers for a spicy lasagna layer?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I incorporate cucumber into a refreshing pasta salad using sourdough croutons?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I use thyme and plastic wrap to create a chocolate-dipped herb treat?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I incorporate sourdough and cheddar into a simple zester-prepared dish?",
+        "response": ""
+    },
+    {
+        "instruction": "How to deglaze a pan with tomato soup for a pie filling?",
+        "response": ""
+    },
+    {
+        "instruction": "How to season seitan with bay leaves and fish sauce for a savory Asian-inspired dish?",
+        "response": ""
+    },
+    {
+        "instruction": "How to prepare a simple couscous salad with coconut milk dressing using minced garlic?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a simple multicooked zucchini and basil dish?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I use a ladle and grill to make a unique tiramisu dessert?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make salted butter mozzarella sticks?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you make grilled tuna with a fried egg on top?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I use a garlic press and wok to prepare garlic-infused dumplings?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a simple quinoa barbecue bowl with turmeric dressing?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you store leftover eclairs in oil to maintain freshness?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I make a donut sandwich using focaccia and jam?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I cook mussels with pudding using measuring cups for ingredient proportions?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make smoked sweet potato and scrambled eggs?",
+        "response": ""
+    },
+    {
+        "instruction": "How can you incorporate a cookie cutter into a fun fondue-themed couscous dish presentation?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a Chocolate Beef Stew Smoothie Bowl?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a simple tuna salad by pureeing canned tuna with mayonnaise and celery?",
+        "response": ""
+    },
+    {
+        "instruction": "How can you use a spatula and plastic wrap to prepare a simple tamarind chicken wrap?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a smoky poached egg served on pudding?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I incorporate nutmeg into a smoothie and serve it on a cake stand?",
+        "response": ""
+    },
+    {
+        "instruction": "How to store leftover ciabatta bread using plastic wrap and baking soda?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a chicken salad barbecue pudding bowl?",
+        "response": ""
+    },
+    {
+        "instruction": "How to create a chocolate-dipped fish sauce-marinated fillet?",
+        "response": ""
+    },
+    {
+        "instruction": "How to prepare slow-cooked couscous in a fondue pot?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I make a basic fettuccine dish using grated cheese and mixing ingredients?",
+        "response": ""
+    },
+    {
+        "instruction": "How to use a mandoline to slice grilled chicken for a salad?",
+        "response": ""
+    },
+    {
+        "instruction": "How to make a Quinoa Coleslaw Clafoutis?",
+        "response": ""
+    },
+    {
+        "instruction": "How do I deglaze my vegetable stew with vegetable oil?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I make a ketchup glaze for grilled vegan steak?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I incorporate pork and kneading techniques into a roast chicken recipe?",
+        "response": ""
+    },
+    {
+        "instruction": "How can I incorporate black pepper into a meringue dessert using a salt block for topping?",
+        "response": ""
+    },
+    {
+        "instruction": "How do you pan-fry lamb chops using a fork?",
+        "response": ""
+    },
+    {
+        "instruction": "How to cook penne with salt-crusted carrot topping?",
+        "response": ""
+    }
+]
