@@ -27,11 +27,11 @@ venv\Scripts\activate      # Sur Windows
 ```
 
 ### **2️⃣ Installer les dépendances**  
-Dans le dossier `app/` (pour le backend) :  
+Dans le dossier `DailyAssistant/app/` (pour le backend) :  
 ```sh
 pip install -r requirements.txt
 ```
-Dans le dossier `project/` (pour le frontend) :  
+Dans le dossier `DailyAssistant/app/project/` (pour le frontend) :  
 ```sh
 npm install
 ```
@@ -41,7 +41,7 @@ npm install
 ## 🏃‍♂️ Lancer l'application  
 
 ### **1️⃣ Démarrer l'API (Backend)**  
-📂 **Se placer dans le dossier `app/` et exécuter** :  
+📂 **Se placer dans le dossier `DailyAssistant/app/` et exécuter** :  
 ```sh
 cd app
 uvicorn api.main:app --reload
