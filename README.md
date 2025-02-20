@@ -1,7 +1,7 @@
 # 🍳 DailyAssistant - Assistant Culinaire GPT  
 
 Bienvenue dans **DailyAssistant**, un assistant de cuisine basé sur un **LLM finetuné à partir de GPT-2**. Ce projet vise à vous aider à réaliser vos plats en vous fournissant des conseils et des recettes comme un véritable assistant culinaire.  
-
+**⚠️⚠️ Pour pouvoir utiliser GPTCOOK il faut télécharger le modèle depuis le drive (Modèle Finetune V6) et le mettre dans le dossier DailyAssistant/app en le renommant mdoel_finetuned : https://drive.google.com/drive/folders/0AN2iBTR6kQq0Uk9PVA ⚠️⚠️**
 ## 🏗️ Structure du projet  
 
 Le repository est divisé en deux parties principales :  
